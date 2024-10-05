@@ -1,0 +1,7 @@
+services:
+  app-countries-service:
+    container_name: app-country
+    image: app-country:1.0.0
+    ports:
+      - "8080:8080"
+    build: .
